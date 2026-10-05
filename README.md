@@ -17,20 +17,16 @@ It has the requested behaviour:
 
 ## Install for local development
 
-1. In `cached-discover-schedule.json`, set `payloadURI` to the absolute path
-   of `discover-schedule-cache.ts` on your machine. It is already set for this
-   workspace.
-2. Copy `cached-discover-schedule.json` into SeaAnime's data-directory
-   `extensions` folder.
-3. Restart SeaAnime, enable **Cached Discover Schedule**, and approve its
-   AniList permission.
+1. Upload `discover-schedule-cache.ts`, `cached-discover-schedule.json`, and
+   this README to the repository's `main` branch.
+2. In SeaAnime, install the plugin from this manifest URL:
+   `https://raw.githubusercontent.com/AkkanOfc/seanime-plugin/main/cached-discover-schedule.json`
+3. Enable **Cached Discover Schedule** and approve its AniList permission.
 4. Use **Open cached schedule** from Discover, or the **Cached Schedule**
    sidebar item. Use **Refresh** in the upper-right when you want new data.
 
-`isDevelopment` is deliberately enabled, so SeaAnime can reload the plugin
-while you edit the TypeScript file. Before sharing it, host the script and
-manifest, change `payloadURI` to that public script URL, and remove
-`isDevelopment`.
+For local development, replace `payloadURI` with the absolute path to the
+TypeScript file and set `isDevelopment` to `true`.
 
 ## Why this is a replacement screen
 

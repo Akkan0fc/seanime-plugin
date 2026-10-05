@@ -2,22 +2,22 @@
   "id": "cached-discover-schedule",
   "name": "Cached Discover Schedule",
   "version": "1.0.0",
-  "manifestURI": "",
+  "manifestURI": "https://raw.githubusercontent.com/AkkanOfc/seanime-plugin/main/cached-discover-schedule.json",
   "language": "typescript",
   "type": "plugin",
   "description": "A session-cached replacement for SeaAnime's Discover schedule, with manual refresh.",
-  "author": "Local",
+  "author": "AkkanOfc",
   "icon": "",
-  "website": "",
+  "website": "https://github.com/AkkanOfc/seanime-plugin",
   "readme": "",
   "notes": "The cache lives only while SeaAnime is open. Use the Refresh button to fetch a new schedule.",
   "lang": "multi",
-  "payloadURI": "/home/akkan/Documents/ChatGPT/plugin for seanime/discover-schedule-cache.ts",
+  "payloadURI": "https://raw.githubusercontent.com/AkkanOfc/seanime-plugin/main/discover-schedule-cache.ts",
   "plugin": {
     "version": "1",
     "permissions": {
       "scopes": ["anilist"]
     }
   },
-  "isDevelopment": true
+  "isDevelopment": false
 }
